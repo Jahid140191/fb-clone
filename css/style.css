@@ -1,0 +1,216 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Open Sans', sans-serif;
+  height: 500px auto;
+}
+.main{
+  width:100%;
+  background: linear-gradient(#FEFEFE, #DADCE3);
+  height: 541px;
+}
+.header{
+  background: #3B5998;
+  padding:8px 0;
+}
+.header::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+.container{
+  width:65%;
+  margin:auto;
+}
+.logo-area{
+  width: 20%;
+  float: left;
+}
+.login-area{
+  width: 70%;
+  float: left;
+  color:#fff;
+  display:block;
+}
+.login-area form{
+  float: right;
+  margin-right: -131px;
+}
+.login-area label,
+.login-area input{
+  display:block;
+}
+.login-area .email,
+.login-area .password,
+.login-area .login{
+  float: left;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.logo-area img{
+  width:160px;
+  margin-top: 0px;
+  margin-left: -54px;
+}
+.logo-area label{
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.login-area .login{
+  margin-right: 0;
+}
+.login-area input[type="text"]
+.login-area input[type="password"]{
+  font-size: 14px;
+  padding: 2px 5px;
+}
+.login-area .password a{
+  text-decoration: none;
+  color: #9cb4d8;
+  font-size: 12px;
+}
+.login-area .password a:hover{
+  text-decoration: underline;
+}
+.login-area input[type="submit"]{
+  background-color: #4267b2;
+  border: 1px solid #29487d;
+  color:#fff;
+  padding: 3px 8px;
+  margin-top: 19px;
+}
+.from1{
+height:500px;
+width:36%;
+/* background: red; */
+margin-left: 190px;
+}
+.logo img{
+  margin-left: -29px;
+}
+.from2{
+  height:500px;
+  width: 36%;
+  float: right;
+  /* background:yellow; */
+  margin-top: -500px;
+  margin-right:80px;
+}
+.text2 p,h1{
+  margin-top:-5px;
+}
+.input input{
+  padding:10px;
+  margin:10px 0px 0px;
+  width:70%;
+  border:2px solid #fff;
+  border-color:#d9cfcf;
+  border-radius:5px;
+}
+.firstname{
+  float:left;
+  width:51%;
+  margin-right:1%;
+}
+.surname{
+  float:left;
+  width:38%;
+  margin-left: -41px;
+}
+.birthday p{
+  font-size: 17px;
+  color: #827d7d;
+}
+.time{
+  float: left;
+}
+.birth-date,
+.birth-month,
+.birth-year
+{
+  float:left;
+}
+.birthday select{
+  background:white;
+  padding: 5px;
+}
+.birth-link a{
+font-size: 12px;
+margin-left: 5px;
+text-decoration: none;
+}
+.birth-link a:hover{
+  text-decoration: underline;
+}
+.gender p{
+  font-size: 17px;
+  color: #827d7d;
+  margin-top: 30px;
+}
+.text-box p{
+  font-size: 13px;
+  color: #777070;
+}
+.text-box a{
+  text-decoration: none;
+}
+.text-box a:hover{
+  text-decoration: underline;
+}
+.text-box a:active{
+  color:green;
+}
+.btn input{
+  width:42%;
+  height: 39px;
+  background: linear-gradient(#36A420, #36A420);
+  border-radius: 6px;
+  border: -1px;
+  border-color: black;
+  color: white;
+  font-size: 18px;
+}
+.footer{
+  height:176px;
+  width:100%;
+  background:white;
+  text-align: center;
+}
+.footer hr{
+  color:#e0e2e73d;
+
+  width: 883px;
+  text-align: center;
+}
+.footer p{
+  margin-top: 67px;
+  text-align: center;
+  font-size: 12px;
+  color: #777070;
+}
+.language{
+  margin-top: 25px;
+}
+.language a{
+  text-decoration: none;
+  color: #777070;
+  font-size: 13px;
+  padding: 5px;
+}
+.language a:hover{
+  text-decoration: underline;
+}
+.language2{
+  margin-top: -3px;
+  width:100%;
+  font-size: 13px;
+  text-align: center;
+}
+.language2 a{
+  color:#928c8c;
+  padding:5px;
+  text-decoration: none;
+}
+.language2 a:hover{
+  text-decoration: underline;
+}

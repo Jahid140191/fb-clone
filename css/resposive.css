@@ -1,0 +1,291 @@
+*{
+  box-sizing: border-box;
+}
+
+@media screen and (max-width:1220px) {
+  .main {
+    height: 582px;
+  }
+}
+
+@media screen and (max-width:1236px) {
+  .from1 {
+    margin-left: 102px;
+  }
+
+  .logo img {
+    width: 450px;
+  }
+
+  .surname {
+    margin-left: -24px;
+    width: 33%;
+  }
+}
+
+@media screen and (max-width:985px) {
+  .main {
+    height: 650px;
+  }
+
+  .birth-link {
+    margin-top: 57px;
+  }
+}
+
+@media screen and (max-width:904px) {
+  .main {
+    height: 980px;
+  }
+
+  .from1 {
+    margin-left: 18px;
+    width: 100%;
+  }
+
+  .text h3 {
+    margin-left: 59px;
+  }
+
+  .logo img {
+    width: 609px;
+    margin-left: 18px;
+  }
+
+  .from2 {
+    margin-top: -243px;
+    float: left;
+    margin-left: 83px;
+  }
+
+  .birth-link {
+    margin-top: 57px;
+  }
+
+  .input input {
+    width: 168%;
+  }
+
+  .surname {
+    margin-left: 1px;
+    width: 100%;
+  }
+
+  .firstname {
+    width: 100%;
+  }
+
+  .birthday select {
+    padding: 9px;
+  }
+}
+
+@media screen and (max-width:681px) {
+  .main {
+    height: 1015px;
+  }
+
+  .from2 {
+    margin-top: -200px;
+  }
+}
+
+@media screen and (max-width:653px) {
+  .main {
+    height: 830px;
+  }
+
+  .logo img {
+    width: 0px;
+  }
+
+  .text {
+    width: 457px;
+  }
+
+  .text2 {
+    width: 310px;
+  }
+
+  .time {
+    width: 300px;
+  }
+
+  .from2 {
+    margin-top: -420px;
+  }
+}
+
+@media screen and (max-width:653px) {
+  .login-area form {
+    margin-left: -43px;
+  }
+
+  .logo-area {
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo-area img {
+    margin-left: 0px;
+  }
+
+  .text {
+    width: 84%;
+    text-align: center;
+    margin-left: 38px;
+  }
+
+  .text h3 {
+    margin-left: 0px;
+  }
+
+  .btn input {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:408px) {
+  .main {
+    height: 912px;
+  }
+
+  .gender {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width:386px) {
+  .main {
+    height: 830px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .login-area form {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .login-area {
+    width: 100%;
+  }
+
+  .login-area input {
+    width: 100%;
+    display: flex;
+  }
+
+  .from1 {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text {
+    margin-left: 0;
+  }
+
+  from {
+    width: 100%;
+    height: auto;
+  }
+
+  .from2 {
+    width: 95%;
+    margin-left: 2%;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  .text2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text2 p,
+  h1 {
+    margin-top: 0;
+  }
+
+  .text2 h1 {
+    font-size: 18px;
+    font-weight: 900;
+  }
+
+  .input {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input input {
+    width: 50%;
+  }
+
+  .firstname,
+  .surname {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .birthday {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .time {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .birth-link {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .gender {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-box br {
+    display: none;
+  }
+
+  .btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn input {
+    width: 45%;
+  }
+
+  .birthday select {
+    width: 100%;
+  }
+}
